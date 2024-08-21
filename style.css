@@ -1,0 +1,59 @@
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#userTable {
+    margin: 20px auto;
+    width: 65%;
+    border-collapse: collapse;
+}
+
+#userTable th {
+    font-size: 18px;
+    background-color: #f2f2f2;
+    padding: 14px 25px;
+}
+
+#userTable td {
+    font-size: 18px;
+    padding: 14px 25px;
+    text-align: center;
+}
+
+.pagination {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.pagination a {
+    margin: 0 5px;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #333;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.pagination a.active {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+}
+
+.pagination a.arrow {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.search{
+    text-align: center;
+}
+
+#searchInput{
+    border: 2px solid grey;
+    padding: 11px 20px;
+    border-radius: 20px;
+    font-size: 15px;
+    width: 12%;
+}

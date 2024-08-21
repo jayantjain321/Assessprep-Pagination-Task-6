@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Data with Pagination</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>User Data</h1>
+    <div class="search">
+        <input type="text" id="searchInput" placeholder="Search by name,email or age">
+    </div>
+    
+    <table id="userTable" border="1">
+        <thead>
+            <tr>
+                <th>S No</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        <tbody id="userList"></tbody>
+    </table>
+    <div class="pagination" id="pagination"></div>
+    <script src="script.js"></script>
+</body>
+</html>
